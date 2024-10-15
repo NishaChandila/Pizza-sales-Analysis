@@ -47,10 +47,24 @@ As a data analyst, my goal is to tackle the challenges within the pizza sales ma
 ![Pizza](https://github.com/NishaChandila/project-assets/blob/main/pizza.jpg?raw=true)
 
 ### Key Findings:
-- **Revenue Drivers**: Large pizzas contribute nearly 47% of total revenue, with classic pizzas generating approximately $220k. Premium options, like the Greek pizza, show strong demand.
-- **Underperforming Items**: Chicken and veggie pizzas are underperforming, contributing less to overall sales compared to other offerings.
-- **Order Timing**: The majority of orders are placed in the afternoon and during weekends, indicating peak periods for staffing and inventory management.
-- **Small Pizza Sales**: Small pizzas account for only 22% of total revenue, presenting an opportunity for targeted promotions to boost sales.
+
+- **1. Order Analysis:**
+
+The majority of orders are placed in the afternoon and on weekends, highlighting peak demand times that require optimal staffing and inventory levels. Small pizzas contribute 34% of total orders but represent only 22% of total revenue, signaling a potential area for growth through targeted promotions.
+
+![Orders](https://github.com/NishaChandila/project-assets/blob/main/pizza1.jpg?raw=true)
+
+- **2. Revenue Analysis:**
+
+Large pizzas dominate revenue, accounting for nearly 47%, while classic pizzas have generated $220k in sales. Premium offerings like the Greek pizza show strong demand, presenting an opportunity to promote high-margin items. Chicken and veggie pizzas are underperforming, indicating a need for better marketing or menu enhancements.
+
+![Revenue](https://github.com/NishaChandila/project-assets/blob/main/pizza2.jpg?raw=true)
+
+3. **Forecasting:**
+
+Sales forecasts predict consistent demand from January 3rd to January 10th, with opportunities to maximize revenue through targeted promotions and upselling during this expected period of steady sales. This allows for better planning of resources and marketing initiatives during peak demand.
+
+![Forecasting](https://github.com/NishaChandila/project-assets/blob/main/pizza3.jpg?raw=true)
 
 - The Power BI dashboard can be accessed [here](https://github.com/NishaChandila/Pizza-sales/blob/main/Pizza-sales-dashboard.pdf).
 
