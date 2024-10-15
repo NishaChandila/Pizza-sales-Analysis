@@ -1,28 +1,63 @@
-# Project Title: Pizza Sales Data Analysis with SQL
+# Pizza Sales Analysis
 
-**Introduction:**
-Welcome to the Pizza Sales Data Analysis project! In this repository, we delve into the world of pizza sales data using SQL queries. By leveraging tables such as order_details, orders, pizza_types, and pizza, we aim to uncover valuable insights into customer preferences, revenue trends, and distribution patterns.
+## Project Background
 
+Pizza: a universal language of happiness. As one of the most beloved foods across the globe, pizza has become more than just a meal; it’s a cultural phenomenon. 
 
-**Object and Approach:**
-Our approach involves utilizing SQL queries, including subqueries and joins, to extract meaningful information from the dataset. We break down the analysis into key components, including total orders, revenue calculation, top-selling pizzas, distribution patterns, and revenue trends over time.
+As a data analyst, this project is dedicated to uncovering vital insights in the pizza sales market by delving into consumer preferences and sales trends. My objective is to identify the types of pizzas that significantly impact revenue, pinpoint peak ordering times, and shed light on the least popular menu items. By analyzing these elements, I aim to craft targeted marketing strategies that leverage high-demand products while simultaneously addressing underperforming options. This comprehensive analysis will equip pizza businesses with actionable insights, empowering them to enhance sales performance and refine their menu offerings in an increasingly competitive landscape.
 
+- [The SQL queries utilized to inspect and perform quality checks can be found here](https://github.com/NishaChandila/Pizza-sales/blob/main/pizza_sqlquery.sql).
+- **Dataset** [order_details](https://github.com/NishaChandila/Pizza-sales/blob/main/order_details.csv), [orders](https://github.com/NishaChandila/Pizza-sales/blob/main/orders.csv), [pizza_type](https://github.com/NishaChandila/Pizza-sales/blob/main/pizza_types.csv) , [pizzas](https://github.com/NishaChandila/Pizza-sales/blob/main/pizzas.csv)
+- [The Power BI dashboard can be accessed here](https://github.com/NishaChandila/Pizza-sales/blob/main/Pizza-sales-dashboard.pdf).
 
-**Key Findings:**
-1) Total Orders Placed: We processed a total of 21,350 orders.
-2) Total Revenue Generated: Cumulative revenue from pizza sales amounted to $78,242,644.20.
-3) Highest-Priced Pizza: The Greek Pizza stood out as the highest-priced pizza at $35.95.
-4) Most Common Pizza Size: Large pizzas emerged as the most common size, followed by Medium and Small.
-5) Top 5 Most Ordered Pizza Types: The Classic Deluxe Pizza, The Barbecue Chicken Pizza, The Hawaiian Pizza, The Pepperoni Pizza, and The Thai Chicken Pizza were the top 5 most ordered pizza types.
-6) Total Quantity of Each Pizza Category Ordered: We analyzed the distribution of pizza categories - Classic, Supreme, Veggie, and Chicken - along with their respective quantities.
-7) Distribution of Orders by Hour: Orders exhibited varying distribution patterns throughout the day, with peaks during specific hours.
-8) Category-Wise Distribution of Pizzas: We identified the distribution of pizzas across different categories.
-9) Average Number of Pizzas Ordered per Day: On average, 138 pizzas were ordered per day.
-10) Top 3 Most Ordered Pizza Types Based on Revenue: The Thai Chicken Pizza, The Barbecue Chicken Pizza, and The California Chicken Pizza topped the list based on revenue.
-11) Percentage Contribution of Each Pizza Type to Total Revenue: We analyzed the revenue contribution of each pizza type, revealing interesting insights.
-12) Cumulative Revenue Generated Over Time: An analysis of cumulative revenue over time provided insights into revenue trends.
-13) Top 3 Most Ordered Pizza Types Based on Revenue for Each Pizza Category: We identified the top-selling pizzas within each pizza category based on revenue.
+## About Dataset
 
+### Dataset Overview
+This project uses a dataset containing information about pizza orders, types of pizzas, and the details of each order. The data is divided into four tables:
 
-**Conclusion and Insights:**
-Through comprehensive SQL analysis, we gained valuable insights into pizza sales data, uncovering trends, preferences, and revenue patterns. The findings not only provide valuable information for decision-making within the pizza business but also demonstrate the power of SQL in extracting actionable insights from complex datasets.
+1. **order_details**
+   - **Description**: This table contains detailed information about each individual pizza order.
+   - **Rows**: 48,621
+   - **Columns**: 4 (order_details_id, order_id, pizza_id, quantity)
+
+2. **orders**
+   - **Description**: This table stores information about the orders made by customers.
+   - **Rows**: 21,351
+   - **Columns**: 3 (order_id, date, time)
+
+3. **pizza_types**
+   - **Description**: This table lists all the available types of pizzas in the system.
+   - **Rows**: 33
+   - **Columns**: 4 (category, ingredients, name, pizza_type_id)
+
+4. **pizzas**
+   - **Description**: This table contains information about individual pizzas available for order.
+   - **Rows**: 97
+   - **Columns**: 4 (pizza_id, pizza_type_id, price, size)
+
+### Dataset Visualization
+![Dataset Overview](link_to_dataset_image)
+
+## Executive Summary
+
+As a data analyst, my goal is to tackle the challenges within the pizza sales market by conducting a thorough analysis of sales data. This project focuses on identifying key insights that can enhance operational efficiency, improve customer satisfaction, and drive revenue growth. I will analyze customer ordering patterns, assess the revenue contributions of different pizza types, and identify peak sales periods. Additionally, I will evaluate underperforming products to uncover opportunities for improvement. By leveraging these insights, I aim to provide strategic recommendations for optimizing product offerings, refining marketing initiatives, and maximizing profitability. Ultimately, my analysis will support informed decision-making that drives sustained business success.
+
+### Key Findings:
+- **Revenue Drivers**: Large pizzas contribute nearly 47% of total revenue, with classic pizzas generating approximately $220k. Premium options, like the Greek pizza, show strong demand.
+- **Underperforming Items**: Chicken and veggie pizzas are underperforming, contributing less to overall sales compared to other offerings.
+- **Order Timing**: The majority of orders are placed in the afternoon and during weekends, indicating peak periods for staffing and inventory management.
+- **Small Pizza Sales**: Small pizzas account for only 22% of total revenue, presenting an opportunity for targeted promotions to boost sales.
+
+## Recommendations
+Based on the analysis of pizza sales data, here are key recommendations to enhance revenue and align offerings with customer preferences:
+
+1. **Boost Morning Orders**: Introduce breakfast-themed pizzas or limited-time morning promotions to attract customers who don’t typically order pizza in the morning.
+2. **Promote Chicken Pizzas**: Increase sales of chicken pizzas by bundling them with popular sides, offering discounts, and featuring them in marketing campaigns.
+3. **Leverage Medium and Large Preferences**: Run promotions to incentivize upsizing from medium to large pizzas, and offer combo deals for large pizzas to attract families and groups.
+4. **Increase Small Pizza Revenue**: Introduce bundle deals like “Buy 2 small pizzas for a discount” and create lunchtime specials to make small pizzas more appealing to individuals.
+5. **Revitalize Veggie Pizza Sales**: Develop premium veggie options and promote them as healthy choices to attract health-conscious consumers and boost revenue.
+6. **Highlight High-Margin Pizzas**: Focus marketing efforts on high-margin premium pizzas, such as the Greek pizza, through limited-time specials or seasonal promotions.
+
+- The SQL queries utilized to inspect and perform quality checks can be found [here](link_to_sql_queries).
+- The dataset used can be found [here](link_to_dataset).
+- The Power BI dashboard can be accessed [here](link_to_dashboard).
